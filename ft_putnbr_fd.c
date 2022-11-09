@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 15:47:37 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/24 14:21:36 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/06 17:20:00 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,12 +34,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n % 10, fd);
 	}
 }
-// int main()
-// {
-//     int fd;
-//     int n;
-
-//     n = 2147483647;
-//     fd = open("/Users/ohaimad/Desktop/test/libft/expnbr", O_WRONLY);
-//         ft_putnbr_fd(n, fd);
-// }

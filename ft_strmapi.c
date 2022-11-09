@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 11:29:37 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/24 14:24:59 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:46:18 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	int		i;
 	char	*str;
 
-	if (!s)
+	if (!s || !f)
 		return (NULL);
 	i = 0;
 	str = malloc(ft_strlen(s) + 1);
@@ -33,9 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (0);
 }
-
-// int main()
-// {
-//     char *str = "otmane";
-//     printf("%s", ft_strmapi(str, ft_test));
-// }

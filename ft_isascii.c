@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 20:53:07 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/19 20:29:27 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:18:45 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-//  int main()
-//  {
-// 	int c;
-// 	c = '2';
-// 	printf("%d\n", ft_isascii(c));
-// 	printf("%d", isascii(c));
-//  }

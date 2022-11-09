@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 21:05:17 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/28 01:02:28 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:46:21 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-// int main()
-// {
-//     char *s1;
-//     char *s2;
-//     s1 = "test otmane";
-//     s2 = "test otmane";
-//     printf("%s\n", ft_strnstr(s1, s2, 5));
-//     printf("%s", strnstr(s1, s2, 5));
-// }

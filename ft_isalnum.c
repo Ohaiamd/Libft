@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 11:51:10 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/15 22:12:50 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/05 22:06:24 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-// int main()
-// {
-//     int c;
-
-//     c = '5';
-//     printf("%d\n", ft_isalnum(c));
-// 	printf("%d", isalnum(c));
-// }

@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 18:45:21 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/24 14:14:20 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:44:31 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		len--;
 	return (ft_substr(s1, 0, len));
 }
-
-// int main()
-// {
-//     char *s = "aa a5454 aa";
-//     char *set = "aa";    
-//     printf("%s", ft_strtrim(s,set));
-// }

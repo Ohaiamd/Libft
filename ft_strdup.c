@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 13:40:04 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/19 20:34:30 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 21:49:18 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,3 @@ char	*ft_strdup(const char *s1)
 	str[i] = '\0';
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	char s1[] = "otmane";
-// 	printf ("%s", ft_strdup(s1));
-// }

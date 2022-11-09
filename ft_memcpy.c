@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 17:45:00 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/14 00:08:42 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/08 16:36:59 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,11 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-// int main()
-// {
-//     char src[] = "abcd";
-//     char dst[] = "123456789";
-//     printf("%s", ft_memcpy(dst, src, 0));
-// }
+int main()
+{
+	int d[] = {1, 2, 3};
+	int s[] = {4, 5, 6};
+	
+	ft_memcpy(d, s, 8);
+	printf("%d", d[0]);
+}

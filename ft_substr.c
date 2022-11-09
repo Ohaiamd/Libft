@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/17 17:13:29 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/19 20:56:14 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:44:34 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-// int main()
-// {   
-//     char *s = "otmane";
-//     int str = 10;
-//     printf("%s", ft_substr(s, str, 2));
-// }

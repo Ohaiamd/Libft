@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 21:02:10 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/14 17:42:15 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:45:35 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-
-// int main()
-// {
-//     int c;
-
-//     c = 127;
-//     printf("%d\n", isprint(c));
-//     printf("%d", ft_isprint(c));
-// }

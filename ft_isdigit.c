@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 11:28:22 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/15 22:13:03 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:18:50 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,8 @@
 
 int	ft_isdigit(int c)
 {
-	if ('0' <= c && '9' >= c)
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
 }
-
-// int main()
-// {
-//     int c;
-// 	int c1;
-
-//     c = 4;
-// 	c1 = 4;
-//     printf("%d\n", ft_isdigit(c));
-// 	printf("%d", isdigit(c1));
-
-// }

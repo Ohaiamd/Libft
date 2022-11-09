@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 12:12:17 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/13 22:05:09 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:37:17 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (x);
 }
-
-// int main()
-// {
-//     char dst[] = "abcd";
-//     char src[] = "aaaaa";   
-//     printf("%zu ----------  %s", ft_strlcpy(dst, src, 4), dst); 
-// }

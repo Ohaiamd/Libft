@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 20:19:14 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/15 22:12:53 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:45:29 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-
-// int main()
-// {
-// 	int c;
-// 	c = 91;
-// 	printf("%d\n", ft_isalpha(c));
-// 	printf("%d", isalpha(c));
-// }	

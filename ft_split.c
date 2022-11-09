@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 00:00:05 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/28 05:10:55 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 22:19:18 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,17 +46,6 @@ static int	nbrofwords(char const *s, char c)
 	return (nbr);
 }
 
-struct s_split
-{
-	int			pi;
-	char		**p;
-	char const	*s;
-	char		c;
-	int			w;
-	int			skip;
-	int			line;
-};
-
 static	char	**added(struct s_split *z)
 {
 	while (z->pi < z->w)
@@ -70,10 +59,7 @@ static	char	**added(struct s_split *z)
 		{
 			z->p[z->pi] = malloc(z->line + 1);
 			if (!z->p[z->pi])
-			{
-				freeall(z->p, z->w);
-				return (NULL);
-			}
+				return (freeall(z->p, z->w), NULL);
 			ft_strlcpy(z->p[z->pi], z->s - z->line, z->line + 1);
 			z->skip = 0;
 			z->pi++;
@@ -103,17 +89,16 @@ char	**ft_split(char const *s, char c)
 	added(&z);
 	return (z.p);
 }
+
 int main()
 {
-    int i = 0;
-    char **jk;
-    char *s = "--ab-cdd-ef";
-    char c = '-';
-    jk = ft_split(s, c);
-    while (jk[i])
-    {
-        printf("%s\n", jk[i]);
-        i++;
-    }
-    return 0;
+	char *s = "-scs-cs-cdc-d-";
+	char c = '-';
+	char **sp = ft_split(s, c);
+	int i = 0;
+	while(sp[i])
+	{
+		printf("%s\n", sp[i]);
+		i++;
+	} 
 }

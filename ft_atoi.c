@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 21:08:00 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/26 09:27:36 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/05 22:18:47 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 int	ft_atoi(const char *str)
 {
 	int		i;
-	size_t	signe;
-	size_t	res;
+	int		signe;
+	int		res;
 
 	res = 0;
 	signe = 1;
@@ -35,14 +35,5 @@ int	ft_atoi(const char *str)
 		res = res + str[i] - '0';
 		i++;
 	}
-	if (res > 9223372036854775807)
-		return (-1);
-	return ((int)(res * signe));
+	return (res * signe);
 }
-// int main()
-// {
-// 	char *s;
-// 	s = "++47";
-// 	printf("%d\n", ft_atoi(s));
-// 	printf("%d", atoi(s));
-// }

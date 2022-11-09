@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 16:35:21 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/21 23:38:00 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/08 17:56:26 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[j] = '\0';
 	return (str);
 }
-// int main()
-// {
-//     char *s1 = "hello";
-//     char *s2 = "world";
-//     printf("%s", ft_strjoin(s1,s2));
-// }
+
+int main()
+{
+	char *s = "123";
+	char *c = "45655";
+
+	printf("%s", ft_strjoin(s, c));
+}

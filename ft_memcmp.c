@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 20:19:36 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/19 20:30:44 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/08 16:25:22 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	unsigned char	*s;
+	char	*s;
+	char	*d;
 	size_t			i;
-	unsigned char	*d;
 
-	s = (unsigned char *)s1;
-	d = (unsigned char *)s2;
+	s = (char *)s1;
+	d = (char *)s2;
 	i = 0;
 	while (i < n && s[i] == d[i])
 		i++;
@@ -30,9 +30,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 
 // int main()
 // {
-//     char    *s;
-//     char    *d;
-//     s = "aaab";
-//     d = "aaaa";
-//     printf("%d",ft_memcmp(s, d, 3));
+// 	int c = 130;
+// 	int v = 60;
+
+// 	printf("%d\n", ft_memcmp(&c, &v, 1));
+// 	printf("%d", memcmp(&c, &v, 1));
 // }

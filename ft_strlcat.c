@@ -6,7 +6,7 @@
 /*   By: ohaimad <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 11:42:18 by ohaimad           #+#    #+#             */
-/*   Updated: 2022/10/19 20:48:46 by ohaimad          ###   ########.fr       */
+/*   Updated: 2022/11/07 10:44:03 by ohaimad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[y] = '\0';
 	return (len_d + len_s);
 }
-
-// int main()
-// {
-// 	//  char dest[20] = "12345";
-// 	char *src = "4585";
-// 	// char dest1[20] = "12345";
-// 	printf("%zu -----\n", ft_strlcat(NULL, src, 0));
-// 	// printf("%zu -----", strlcat(0, src, 0));
-// }
